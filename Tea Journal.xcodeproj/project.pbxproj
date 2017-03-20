@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		E02D078D1E6B4DBC0021447C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02D078C1E6B4DBC0021447C /* AppDelegate.swift */; };
-		E02D078F1E6B4DBC0021447C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02D078E1E6B4DBC0021447C /* ViewController.swift */; };
 		E02D07921E6B4DBD0021447C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02D07901E6B4DBD0021447C /* Main.storyboard */; };
 		E02D07951E6B4DBD0021447C /* Tea_Journal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E02D07931E6B4DBD0021447C /* Tea_Journal.xcdatamodeld */; };
 		E02D07971E6B4DBD0021447C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E02D07961E6B4DBD0021447C /* Assets.xcassets */; };
 		E02D079A1E6B4DBD0021447C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02D07981E6B4DBD0021447C /* LaunchScreen.storyboard */; };
+		E02D07A21E6B50290021447C /* TeaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02D07A11E6B50290021447C /* TeaTableViewController.swift */; };
+		E02D07A41E6B53120021447C /* TeaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02D07A31E6B53120021447C /* TeaTableViewCell.swift */; };
+		E02D07A61E6B5AAA0021447C /* AddTeaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02D07A51E6B5AAA0021447C /* AddTeaTableViewController.swift */; };
+		E02D07A81E6C739F0021447C /* TeaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02D07A71E6C739F0021447C /* TeaDetailViewController.swift */; };
+		E02D07AA1E6C76E10021447C /* TeaDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02D07A91E6C76E10021447C /* TeaDetailTableViewCell.swift */; };
+		E02D07AC1E6CE0830021447C /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02D07AB1E6CE0830021447C /* NoteViewController.swift */; };
+		E02D07D61E6F0A4A0021447C /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02D07D51E6F0A4A0021447C /* TimerViewController.swift */; };
+		E02D07D81E6F0AF40021447C /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E02D07D71E6F0AF40021447C /* alarm.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E02D07891E6B4DBC0021447C /* Tea Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tea Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02D078C1E6B4DBC0021447C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E02D078E1E6B4DBC0021447C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E02D07911E6B4DBD0021447C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E02D07941E6B4DBD0021447C /* Tea_Journal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tea_Journal.xcdatamodel; sourceTree = "<group>"; };
 		E02D07961E6B4DBD0021447C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E02D07991E6B4DBD0021447C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E02D079B1E6B4DBD0021447C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E02D07A11E6B50290021447C /* TeaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeaTableViewController.swift; sourceTree = "<group>"; };
+		E02D07A31E6B53120021447C /* TeaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeaTableViewCell.swift; sourceTree = "<group>"; };
+		E02D07A51E6B5AAA0021447C /* AddTeaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTeaTableViewController.swift; sourceTree = "<group>"; };
+		E02D07A71E6C739F0021447C /* TeaDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeaDetailViewController.swift; sourceTree = "<group>"; };
+		E02D07A91E6C76E10021447C /* TeaDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeaDetailTableViewCell.swift; sourceTree = "<group>"; };
+		E02D07AB1E6CE0830021447C /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		E02D07D51E6F0A4A0021447C /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		E02D07D71E6F0AF40021447C /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm.mp3; path = ../../../../Downloads/alarm.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +71,19 @@
 			isa = PBXGroup;
 			children = (
 				E02D078C1E6B4DBC0021447C /* AppDelegate.swift */,
-				E02D078E1E6B4DBC0021447C /* ViewController.swift */,
 				E02D07901E6B4DBD0021447C /* Main.storyboard */,
 				E02D07961E6B4DBD0021447C /* Assets.xcassets */,
 				E02D07981E6B4DBD0021447C /* LaunchScreen.storyboard */,
 				E02D079B1E6B4DBD0021447C /* Info.plist */,
 				E02D07931E6B4DBD0021447C /* Tea_Journal.xcdatamodeld */,
+				E02D07D71E6F0AF40021447C /* alarm.mp3 */,
+				E02D07A11E6B50290021447C /* TeaTableViewController.swift */,
+				E02D07A31E6B53120021447C /* TeaTableViewCell.swift */,
+				E02D07A51E6B5AAA0021447C /* AddTeaTableViewController.swift */,
+				E02D07A71E6C739F0021447C /* TeaDetailViewController.swift */,
+				E02D07A91E6C76E10021447C /* TeaDetailTableViewCell.swift */,
+				E02D07AB1E6CE0830021447C /* NoteViewController.swift */,
+				E02D07D51E6F0A4A0021447C /* TimerViewController.swift */,
 			);
 			path = "Tea Journal";
 			sourceTree = "<group>";
@@ -127,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E02D07D81E6F0AF40021447C /* alarm.mp3 in Resources */,
 				E02D079A1E6B4DBD0021447C /* LaunchScreen.storyboard in Resources */,
 				E02D07971E6B4DBD0021447C /* Assets.xcassets in Resources */,
 				E02D07921E6B4DBD0021447C /* Main.storyboard in Resources */,
@@ -140,8 +162,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E02D078F1E6B4DBC0021447C /* ViewController.swift in Sources */,
+				E02D07AC1E6CE0830021447C /* NoteViewController.swift in Sources */,
+				E02D07D61E6F0A4A0021447C /* TimerViewController.swift in Sources */,
 				E02D078D1E6B4DBC0021447C /* AppDelegate.swift in Sources */,
+				E02D07A61E6B5AAA0021447C /* AddTeaTableViewController.swift in Sources */,
+				E02D07A21E6B50290021447C /* TeaTableViewController.swift in Sources */,
+				E02D07A41E6B53120021447C /* TeaTableViewCell.swift in Sources */,
+				E02D07AA1E6C76E10021447C /* TeaDetailTableViewCell.swift in Sources */,
+				E02D07A81E6C739F0021447C /* TeaDetailViewController.swift in Sources */,
 				E02D07951E6B4DBD0021447C /* Tea_Journal.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +332,7 @@
 				E02D07A01E6B4DBD0021447C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
